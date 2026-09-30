@@ -1,0 +1,28 @@
+{
+  "checked_at": "2026-09-30T12:51:42.156748+00:00",
+  "sage": "SageMath version 10.9, Release Date: 2026-05-04",
+  "checks": 40,
+  "script_sha256": "448106fe2ff11f772899cb77ceb9b189b4b475d552a2af71ae36045fb6ff0f7f",
+  "text_sha256": {
+    "11-cohn-summary.typ": "8d1dcfc3fc3efc695ba8433297a5ea122cf0f4d76b36d5aaf7fe945cbec7057a",
+    "12-cohn-homomorphisms.typ": "2da47835c0615b7e59534616ec4639fbf9c26d4c6d8f49bb1d1b0a629d1b9e09"
+  },
+  "passages": [
+    "eq:cohn-addition-relation",
+    "eq:cohn-unit-relation",
+    "eq:cohn-diagonal-relation",
+    "eq:cohn-small-orders",
+    "eq:cohn-inverse-relation",
+    "eq:cohn-quotient-relation",
+    "eq:cohn-ternary-relation",
+    "eq:cohn-unit-reduction",
+    "eq:cohn-double-unit-reduction",
+    "eq:cohn-continuant-product",
+    "passage:cohn-norm-examples",
+    "passage:cohn-unital-linear-examples",
+    "passage:cohn-free-algebra-gl2",
+    "passage:cohn-polynomial-weighted-function"
+  ],
+  "literature": "P. M. Cohn, On the structure of the GL2 of a ring, Publ. Math. IHES 30 (1966), §§5–6 and §11, Theorem 11.2.",
+  "scope": "Noncommutative sample identities, free continuants through length 7, exact counterexamples; no classification theorem is asserted."
+}

@@ -1,0 +1,23 @@
+{
+  "checked_at": "2026-09-30T12:22:25.137533+00:00",
+  "sage": "SageMath version 10.9, Release Date: 2026-05-04",
+  "checks": 21,
+  "script_sha256": "bf4117b4d84d71da9f21dca922e9ded4316f00cd1acffe57d592515581dffbc7",
+  "text_sha256": {
+    "63-solazzi-symplectic-preliminaries.typ": "a53747d3c38925811c93a8802b1306d30b040af1cde8f394868a573e74ce1b87",
+    "70-solazzi-unitary-preliminaries.typ": "632fe21407ec8e63b393a6e2503a358b37cae9bab813b1113a38831e81c71c5b",
+    "71-solazzi-unitary-double-centralizers.typ": "6ded90f63282e7d8903adee9b3f08aabd632a12450a4b11c6370e47943f5a934",
+    "72-solazzi-unitary-automorphisms.typ": "27cdd01038e91fb9970c0e89f9ca7d6371d37ae74e32351e7ef9dc6b61f36c57"
+  },
+  "passages": [
+    "prop:solazzi-unitary-transvection-equality",
+    "prop:solazzi-unitary-transvection-product",
+    "prop:solazzi-unitary-transvection-centralizer",
+    "prop:solazzi-unitary-transvections-commute",
+    "prop:solazzi-unitary-two-hyperbolic-planes",
+    "prop:solazzi-unitary-cdc-residual-inclusion",
+    "lem:solazzi-unitary-transvection-preservation"
+  ],
+  "literature": "R. Solazzi, On the isomorphisms between certain congruence groups, II, Canad. J. Math. 25 (1973), 1006–1014, proof of 1.9.",
+  "scope": "Exact counterexamples and linear algebra in Q(i)^6, Witt index 3; one 2-dimensional rational symplectic model; no classification proof."
+}

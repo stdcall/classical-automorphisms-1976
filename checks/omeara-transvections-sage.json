@@ -1,0 +1,125 @@
+{
+  "checked_at": "2026-09-30T12:46:00.166381+00:00",
+  "sage": "SageMath version 10.9, Release Date: 2026-05-04",
+  "script_sha256": "7951db13b2907a10dc27aeecdadc444901ac57e9ec3feec2cbfac85e0682cda7",
+  "text_sha256": {
+    "27-omeara-projective-transvections.typ": "e4f9447dd4e6aa82cda0bb7e16a6b86d1e6e02f2c9dbb4001b192760a279f657",
+    "40-omeara-geometric-isomorphisms.typ": "56503f677e126882d340a1ad38d8bc480e441bd7eb6b7fc59105d11dca983d45",
+    "41-omeara-contragredient.typ": "c0d8669cea65554fc178a2abd2cf9f9eaf037b9b29c225d52bdf21c2f62c37ca",
+    "44-omeara-rich-transvections.typ": "cabbc86a82007c61ed259b9be7cf21cd56235cecdd617b8eec9abac408f9a9a4",
+    "diagrams/omeara-transvections.typ": "47806b691e4f616cccaeadff69c1a6cfb8e240640b2d7cb3d971c951bdcfeaa0",
+    "diagrams/omeara-rich-transvections.typ": "3b02b3d55eb92c3f26cfafbc05838b871542b788c90ea5dfe78f1aabf580142a"
+  },
+  "passages": [
+    "exm:omeara-projective-transvection-dimension-two",
+    "passage:omeara-contragredient-transvection-sign",
+    "prop:omeara-geometric-isomorphism-equality"
+  ],
+  "scope": "Selected rank-one identities and exact diagram data only; no proof of general theorems.",
+  "checks": [
+    {
+      "name": "1.6.2-example",
+      "ring": "Integer Ring",
+      "matrix": [
+        "-3",
+        "-2",
+        "2",
+        "1"
+      ],
+      "passed": true
+    },
+    {
+      "name": "1.6.2-example",
+      "ring": "Finite Field of size 2",
+      "matrix": [
+        "1",
+        "0",
+        "0",
+        "1"
+      ],
+      "passed": true
+    },
+    {
+      "name": "1.6.2-example",
+      "ring": "Finite Field of size 3",
+      "matrix": [
+        "0",
+        "1",
+        "2",
+        "1"
+      ],
+      "passed": true
+    },
+    {
+      "name": "1.6.2-example",
+      "ring": "Finite Field of size 5",
+      "matrix": [
+        "2",
+        "3",
+        "2",
+        "1"
+      ],
+      "passed": true
+    },
+    {
+      "name": "1.6.2-example",
+      "ring": "Finite Field of size 7",
+      "matrix": [
+        "4",
+        "5",
+        "2",
+        "1"
+      ],
+      "passed": true
+    },
+    {
+      "name": "4.5.1-rank-one-polynomial-identity",
+      "ring": "Multivariate Polynomial Ring in u, v over Rational Field",
+      "passed": true
+    },
+    {
+      "name": "4.5.1-contragredient-sign",
+      "ring": "Rational Field",
+      "passed": true
+    },
+    {
+      "name": "4.5.1-contragredient-sign",
+      "ring": "Finite Field of size 2",
+      "passed": true
+    },
+    {
+      "name": "4.5.1-contragredient-sign",
+      "ring": "Finite Field of size 3",
+      "passed": true
+    },
+    {
+      "name": "4.5.1-contragredient-sign",
+      "ring": "Finite Field of size 5",
+      "passed": true
+    },
+    {
+      "name": "diagram-models-and-projection",
+      "passed": true
+    },
+    {
+      "name": "chapter-two-diagram-models-and-projections",
+      "passed": true
+    },
+    {
+      "name": "5.2.4-inductive-subspaces-and-transvection-product",
+      "ring": "QQ",
+      "passed": true
+    },
+    {
+      "name": "5.3.7-common-origin-projected-balls",
+      "ring": "QQ",
+      "passed": true
+    },
+    {
+      "name": "4.4.1-restriction-to-linear-group",
+      "ring": "Number Field in i with defining polynomial x^2 + 1 with i = 1*I",
+      "passed": true
+    }
+  ],
+  "passed": true
+}

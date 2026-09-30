@@ -1,0 +1,30 @@
+{
+  "checked_at": "2026-09-30T12:22:25.112085+00:00",
+  "sage": "SageMath version 10.9, Release Date: 2026-05-04",
+  "script_sha256": "1829841b2d4fe44d39fec42b3850f2028f991a3835cd247c86583624f70cfc23",
+  "text_sha256": {
+    "54-ojanguren-theorem.typ": "9a0f97e7ba5cbf12edfa63398199ef05212957e710e40e7d3f1063ed3ce845d4",
+    "55-ojanguren-example.typ": "297e43a236e87d02593ee5848478f3d02dcacd81976e22c103ba2f5e044f5779"
+  },
+  "passages": [
+    "eq:ojanguren-two-coordinate-map",
+    "prop:ojanguren-collinearity-counterexample",
+    "passage:ojanguren-principal-domain-extension"
+  ],
+  "scope": "Exact coordinate identity and ring counterexamples; no proof of the general fundamental theorem.",
+  "checks": [
+    "normalized-base-image",
+    "corrected-coordinate-equation",
+    "printed-missing-alpha-fails",
+    "polynomial-ring-UFD",
+    "coordinate-ideal-proper",
+    "origin-annihilates-coordinate-ideal",
+    "target-is-a-valid-fraction-field-point",
+    "PID-coordinate-ideal-normalizes",
+    "PID-projective-point-unchanged",
+    "all-three-vectors-unimodular",
+    "fraction-field-incidence",
+    "reverse-incidence-needs-nonunit-inverse"
+  ],
+  "passed": true
+}

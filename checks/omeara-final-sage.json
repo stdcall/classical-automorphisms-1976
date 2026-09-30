@@ -1,0 +1,41 @@
+{
+  "date_utc": "2026-09-30T12:22:25.032272+00:00",
+  "sage_version": "10.9",
+  "status": "passed",
+  "scope": "limited exact identities and finite incidence checks; general isomorphism theorems not proved",
+  "sha256": {
+    "checks/sage/omeara_final.py": "1d61ea9d0c5ae2d3824479b96615a8d346d768386ac0e2101b28c839b5d5e34b",
+    "content/48-omeara-fields.typ": "d7878e427f17ad8b54e31a3ddb096c648cc8bb810080e0109006ec22c0824051",
+    "content/49-omeara-integral-domains.typ": "f9a581ed5162ad8aa34154a9686e620c3284182db2b05b83284cb9e1df33b472",
+    "content/50-omeara-isomorphism-comments.typ": "0d34eb24d6459409018864aedba1448abe9038c0120252b5e62ba724cc68e9d2"
+  },
+  "checks": [
+    {
+      "name": "5.6.9: PSL2(F7) involutions and incidence",
+      "group_order": 168,
+      "nonidentity_involutions": 21,
+      "distinct_maximal_involution_subgroups": 14,
+      "incidence_offsets": [
+        0,
+        1,
+        3
+      ],
+      "passed": true
+    },
+    {
+      "name": "5.6.9: listed Fano-plane incidence",
+      "pairs_checked": 49,
+      "passed": true
+    },
+    {
+      "name": "5.6.4: rational Hua identity",
+      "scope": "commutative rational-function field, denominators nonzero",
+      "passed": true
+    },
+    {
+      "name": "5.6.5: identity on PGL2(F3) requires Delta as domain",
+      "scope": "one nonsquare-determinant representative outside PSL2",
+      "passed": true
+    }
+  ]
+}

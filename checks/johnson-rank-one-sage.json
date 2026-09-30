@@ -1,0 +1,27 @@
+{
+  "checked_at": "2026-09-30T12:22:25.285352+00:00",
+  "sage": "SageMath version 10.9, Release Date: 2026-05-04",
+  "script_sha256": "78bd801fbf4f73f12fe6ed2890236e2441057e22ff5b26730b8127fd9116acd4",
+  "text_sha256": {
+    "02-johnson-basic-notions.typ": "79df828ec9fc778512cc9ca73cd127b8934c39bb95f12b53577e7e0cf5287168",
+    "06-johnson-isomorphisms.typ": "9691e247a9f2a3b96fc393e8a814f4073a557fe58e2343674417a26b41105e85",
+    "07-johnson-automorphisms.typ": "4a59caf8040d5d9ae6943ef762b2c9c96a28f1bb6b033b8ee9a6cffa909b8f14"
+  },
+  "passages": [
+    "passage:johnson-rank-one-commutation",
+    "passage:johnson-uniqueness-central-product",
+    "passage:johnson-main-decomposition"
+  ],
+  "printed_pages": [
+    11,
+    27,
+    29
+  ],
+  "results": {
+    "symbolic_rank_one_commutator": "proved as a polynomial identity",
+    "identity_exception": "exact counterexample over Q(i), dimension 3",
+    "uniqueness_product": "printed left side refuted, intended central product verified",
+    "semilinear_exponent": "printed inverse exponent refuted over infinite F16(t)"
+  },
+  "scope": "The identity exception and algebraic identity only; no general automorphism classification."
+}

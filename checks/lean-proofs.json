@@ -1,0 +1,34 @@
+[
+  {
+    "file": "checks/lean/ClassicalAutomorphisms/CohnMatrices.lean",
+    "declarations": [
+      "ClassicalAutomorphisms.Cohn.addition",
+      "ClassicalAutomorphisms.Cohn.square_zero",
+      "ClassicalAutomorphisms.Cohn.cube_one",
+      "ClassicalAutomorphisms.Cohn.inverse_right",
+      "ClassicalAutomorphisms.Cohn.inverse_left",
+      "ClassicalAutomorphisms.Cohn.inverse_formula",
+      "ClassicalAutomorphisms.Cohn.ternary"
+    ],
+    "book": "П. Кон, §2 сводки: (2.2), (2.5), (2.6), (2.8), печ.33–34.",
+    "limitations": "Произвольное ассоциативное кольцо с единицей; только явные матричные соотношения, не полнота определяющих соотношений и не классификация изоморфизмов.",
+    "passages": [
+      "eq:cohn-addition-relation",
+      "eq:cohn-small-orders",
+      "eq:cohn-inverse-relation",
+      "eq:cohn-ternary-relation"
+    ]
+  },
+  {
+    "file": "checks/lean/ClassicalAutomorphisms/UnimodularCoordinates.lean",
+    "declarations": [
+      "ClassicalAutomorphisms.coordinate_proportionality"
+    ],
+    "book": "М. Оянгурен, Р. Сридхаран, § 2, координатный шаг после (15), исправленное (16).",
+    "limitations": "Произвольное коммутативное кольцо, конечное множество координат, соотношение Безу и перекрестные равенства. Только вывод пропорциональности координат; не основная теорема проективной геометрии целиком.",
+    "passages": [
+      "eq:ojanguren-coefficient-relations",
+      "passage:ojanguren-unimodular-coordinate-proof"
+    ]
+  }
+]
